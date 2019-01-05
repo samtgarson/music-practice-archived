@@ -1,0 +1,55 @@
+{
+  "name": "@music-practice/engine",
+  "version": "0.0.1",
+  "description": "Core business domain engine for Music Practice",
+  "main": "lib/index.js",
+  "dependencies": {
+    "rxjs": "^6.3.3",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "@samtgarson/eslint-config": "^1.0.3",
+    "eslint": "^5.11.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-import-resolver-jest": "^2.1.1",
+    "eslint-plugin-html": "^5.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jest": "^22.1.2",
+    "eslint-plugin-node": "^8.0.0",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-vue": "^5.0.0",
+    "esm": "^3.0.84",
+    "jest": "^24.0.0-alpha.9"
+  },
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samtgarson/music-practice.git"
+  },
+  "author": "samtgarson@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samtgarson/music-practice/issues"
+  },
+  "homepage": "https://github.com/samtgarson/music-practice#readme",
+  "eslintConfig": {
+    "extends": "@samtgarson"
+  },
+  "jest": {
+    "testMatch": [
+      "<rootDir>/test/**/*.js"
+    ]
+  },
+  "babel": {
+    "presets": [
+      [
+        "@babel/preset-env"
+      ]
+    ]
+  }
+}
